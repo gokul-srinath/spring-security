@@ -13,6 +13,14 @@ public class Student {
         return StudentId;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "StudentId=" + StudentId +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
     public String getName() {
         return name;
     }

@@ -1,6 +1,7 @@
 package com.springTutorial.security.AuthPackage;
 
 
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 public enum ApplicationUserPermissions {
 
@@ -19,4 +20,5 @@ public enum ApplicationUserPermissions {
     public String getPermission() {
         return permission;
     }
+
 }
